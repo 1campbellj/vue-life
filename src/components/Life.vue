@@ -55,10 +55,10 @@ export default {
   },
 
   watch: {
-    width(newW, oldW) {
+    width() {
       this.applyWidth();
     },
-    height(newH, oldH) {
+    height() {
       this.applyHeight();
     }
   },
